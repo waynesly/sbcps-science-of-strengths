@@ -71,3 +71,11 @@ Required total: 57 assets. The supplied school logo and crest files are availabl
 ## Next safe phases
 
 1. Build and validate the required artwork library and manifest before releasing the redesigned screens.
+
+## Artwork release candidate — 8 November 2026 (not production)
+
+- Hatchable project was audited at v95. The teacher set-up page referenced `assets/generated/teacher-setup-planning-photo.jpg`, which returned 404 in the deployed site; the release-candidate draft removes the image block rather than replacing it with an untracked file.
+- Year 5 challenge delivery now has stable IDs and artwork mappings in the Hatchable draft. `invite-every-voice` maps to the inclusion scene and `keep-going-together` maps to the perseverance scene, independent of recommendation order.
+- Classroom Check-in source already maps its six domains and three windows by ID and uses `self-regulation-v2` and `mid-year-v2`. `artwork-implementation.json` records the canonical delivery mappings, including deliberately distinct Year 5 strength and Classroom domain self-regulation IDs.
+- The old 50-item artwork backlog is obsolete: delivery files exist in the asset library. The remaining publication task is to reconcile the approved, untracked image masters and the expanded manifest in a reviewed asset commit before deployment.
+- `node scripts/validate-artwork.mjs` validates mapped delivery files, stable map cardinality and required current variants. It must be run alongside Hatchable's deploy preflight because Hatchable-only HTML, CSS, JavaScript and print templates are not checked out in this Git repository.
