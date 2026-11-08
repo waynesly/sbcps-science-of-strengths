@@ -1,0 +1,38 @@
+{
+  "release": "artwork-rc-2026-11-08",
+  "notes": "Canonical delivery paths are relative to public/. Source masters remain in assets/ when present. Retired staff-collaboration and teacher-studio artwork must not be reintroduced.",
+  "year5Challenges": {
+    "invite-every-voice": "assets/challenges/include-everyone-v1.png",
+    "choose-kind-response": "assets/challenges/welcome-new-student-v1.png",
+    "ask-better-question": "assets/challenges/listen-first-v1.png",
+    "keep-going-together": "assets/challenges/keep-going-v1.png",
+    "lead-with-care": "assets/challenges/help-the-team-v1.png",
+    "pause-before-deciding": "assets/challenges/care-for-place-v1.png",
+    "stand-up-for-right": "assets/challenges/speak-up-kindly-v1.png",
+    "notice-good": "assets/challenges/notice-gratitude-v1.png"
+  },
+  "classroomDomains": {
+    "classroom-domain-belonging": "assets/classroom/domains/belonging-v1.png",
+    "classroom-domain-collaboration": "assets/classroom/domains/collaboration-v1.png",
+    "classroom-domain-learning-approach": "assets/classroom/domains/learning-approach-v1.png",
+    "classroom-domain-confidence-voice": "assets/classroom/domains/confidence-voice-v1.png",
+    "classroom-domain-self-regulation": "assets/classroom/domains/self-regulation-v2.png",
+    "classroom-domain-contribution": "assets/classroom/domains/contribution-v1.png"
+  },
+  "classroomWindows": {
+    "classroom-window-start-year": "assets/classroom/windows/start-year-v1.png",
+    "classroom-window-mid-year": "assets/classroom/windows/mid-year-v2.png",
+    "classroom-window-reflection": "assets/classroom/windows/reflection-v1.png"
+  },
+  "printTemplates": {
+    "classroom-student-summary": "assets/classroom/support/student-summary-v1.png",
+    "classroom-class-pattern": "assets/classroom/support/class-pattern-v1.png",
+    "classroom-growth": "assets/classroom/windows/mid-year-v2.png",
+    "classroom-group-plan": "assets/classroom/support/group-plan-v1.png",
+    "classroom-join-cards": "assets/brand/stbernadettes-horizontal-primary.png"
+  },
+  "distinctIds": {
+    "year5-strength-self-regulation": "assets/strengths/self-regulation-v1.png",
+    "classroom-domain-self-regulation": "assets/classroom/domains/self-regulation-v2.png"
+  }
+}
